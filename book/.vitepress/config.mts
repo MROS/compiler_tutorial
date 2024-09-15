@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "離塵指引．卷之一．試結丹",
   description: "咒法分析與真言運行",
+  base: "/compiler_tutorial/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
