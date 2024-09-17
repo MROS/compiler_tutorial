@@ -15,7 +15,11 @@ export default defineConfig({
     sidebar: [
       {
         text: "緣起",
-        items: [{ text: "大品天仙訣之臆想", link: "/大品天仙訣之臆想" }],
+        items: [
+          { text: "大品天仙訣之臆想", link: "/大品天仙訣之臆想" },
+          { text: "序・去往新世界", link: "/序・去往新世界" },
+          { text: "離塵第一步：自舉", link: "/離塵第一步：自舉" },
+        ],
       },
     ],
 
