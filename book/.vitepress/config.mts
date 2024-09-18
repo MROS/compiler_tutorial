@@ -19,6 +19,7 @@ export default defineConfig({
           { text: "大品天仙訣之臆想", link: "/大品天仙訣之臆想" },
           { text: "序・去往新世界", link: "/序・去往新世界" },
           { text: "離塵第一步：自舉", link: "/離塵第一步：自舉" },
+          { text: "什麼語言容易自舉", link: "/什麼語言容易自舉" },
         ],
       },
     ],
