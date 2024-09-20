@@ -28,6 +28,12 @@ export default defineConfig({
           { text: "結丹流程概覽（通用編譯流程）", link: "/結丹流程概覽（通用編譯流程）" },
         ],
       },
+      {
+        text: "音界咒零．一版",
+        items: [
+          { text: "音界咒零．一版設計與定義", link: "/音界咒零．一版設計與定義" },
+        ],
+      },
     ],
 
     socialLinks: [
