@@ -32,6 +32,7 @@ export default defineConfig({
         text: "音界咒零．一版",
         items: [
           { text: "音界咒零．一版設計與定義", link: "/音界咒零．一版設計與定義" },
+          { text: "全形字體選擇", link: "/全形字體選擇" },
         ],
       },
     ],
