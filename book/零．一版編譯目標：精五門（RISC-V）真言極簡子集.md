@@ -9,7 +9,16 @@
 
 ## 實驗環境架設
 
-絕大部分的人手邊都沒有精五架構的板子，需要先安裝交叉編譯器跟精五模擬器（本作選擇使用 qemu）。
+絕大部分的人手邊都沒有精五架構的板子，需要先安裝
+
+- 交叉編譯器工具鏈
+- 精五模擬器（本作選擇使用 qemu）
+
+以下是 ubuntu 的安裝指令。
+```
+sudo apt install gcc-riscv64-unknown-elf # 安裝編譯目標為 riscv64 的工具鏈
+sudo apt install qemu-user               # 安裝可執行 linux 執行檔的 qemu
+```
 
 ## 返回 100
 
