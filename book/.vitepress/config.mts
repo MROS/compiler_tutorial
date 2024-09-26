@@ -47,6 +47,10 @@ export default defineConfig({
             text: "分詞",
             link: "/零．一版/分詞",
           },
+          {
+            text: "剖析（語法分析）",
+            link: "/零．一版/剖析（語法分析）",
+          },
         ],
       },
     ],
