@@ -51,6 +51,10 @@ export default defineConfig({
             text: "剖析（語法分析）",
             link: "/零．一版/剖析（語法分析）",
           },
+          {
+            text: "符號檢查",
+            link: "/零．一版/符號檢查",
+          },
         ],
       },
     ],
