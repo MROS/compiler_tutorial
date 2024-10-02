@@ -55,6 +55,10 @@ export default defineConfig({
             text: "符號檢查",
             link: "/零．一版/符號檢查",
           },
+          {
+            text: "精五真言生成",
+            link: "/零．一版/精五真言生成",
+          },
         ],
       },
     ],
