@@ -59,6 +59,10 @@ export default defineConfig({
             text: "精五真言生成",
             link: "/零．一版/精五真言生成",
           },
+          {
+            text: "優化",
+            link: "/零．一版/優化",
+          },
         ],
       },
     ],
