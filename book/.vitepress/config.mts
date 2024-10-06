@@ -65,6 +65,15 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: "雜項",
+        items: [
+          {
+            text: "精五組語除錯器介紹",
+            link: "/雜項/精五組語除錯器介紹.md",
+          },
+        ],
+      },
     ],
 
     socialLinks: [
