@@ -66,11 +66,29 @@ export default defineConfig({
         ],
       },
       {
+        text: "音界咒零．二版：極簡圖靈完備",
+        items: [
+          {
+            text: "設計與概述",
+            link: "/零．二版/設計與概述.md",
+          },
+        ],
+      },
+      {
         text: "雜項",
         items: [
           {
             text: "精五組語除錯器介紹",
             link: "/雜項/精五組語除錯器介紹.md",
+          },
+        ],
+      },
+      {
+        text: "用語",
+        items: [
+          {
+            text: "用語對照",
+            link: "用語對照.md",
           },
         ],
       },
