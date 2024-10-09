@@ -38,7 +38,6 @@ export default defineConfig({
             text: "音界咒零．一版設計與定義",
             link: "/零．一版/音界咒零．一版設計與定義",
           },
-          { text: "全形字體選擇", link: "/全形字體選擇" },
           {
             text: "編譯目標：精五門（RISC-V）真言極簡子集",
             link: "/零．一版/編譯目標：精五門（RISC-V）真言極簡子集",
@@ -72,11 +71,16 @@ export default defineConfig({
             text: "設計與概述",
             link: "/零．二版/設計與概述.md",
           },
+          {
+            text: "再遇分詞",
+            link: "/零．二版/再遇分詞.md",
+          },
         ],
       },
       {
         text: "雜項",
         items: [
+          { text: "全形字體選擇", link: "/全形字體選擇" },
           {
             text: "精五組語除錯器介紹",
             link: "/雜項/精五組語除錯器介紹.md",
