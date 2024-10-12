@@ -75,6 +75,10 @@ export default defineConfig({
             text: "再遇分詞",
             link: "/零．二版/再遇分詞.md",
           },
+          {
+            text: "再遇剖析（一）決定算子優先級",
+            link: "/零．二版/再遇剖析（一）決定算子優先級.md",
+          },
         ],
       },
       {
