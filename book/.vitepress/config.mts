@@ -87,6 +87,10 @@ export default defineConfig({
             text: "語義分析：類型檢查",
             link: "/零．二版/語義分析：類型檢查.md",
           },
+          {
+            text: "精五真言生成（一）施術",
+            link: "/零．二版/精五真言生成（一）施術.md",
+          },
         ],
       },
       {
