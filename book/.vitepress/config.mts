@@ -6,7 +6,9 @@ export default defineConfig({
   description: "咒法分析與真言運行",
   base: "/compiler_tutorial/",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    socialLinks: [
+      { icon: "github", link: "https://github.com/mros/compiler_tutorial" },
+    ],
     nav: [
       { text: "首頁", link: "/" },
       { text: "修行", link: "/大品天仙訣之臆想" },
@@ -112,10 +114,6 @@ export default defineConfig({
           },
         ],
       },
-    ],
-
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
   },
 });
