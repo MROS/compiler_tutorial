@@ -105,6 +105,10 @@ export default defineConfig({
             text: "精五真言生成（四）編譯若語句",
             link: "/零．二版/精五真言生成（四）編譯若語句.md",
           },
+          {
+            text: "階段成果展示",
+            link: "/零．二版/階段成果展示.md",
+          },
         ],
       },
       {
