@@ -16,7 +16,7 @@
 
 以下是 ubuntu 的安裝指令。
 ```
-sudo apt install gcc-riscv64-unknown-elf # 安裝編譯目標為 riscv64 的工具鏈
+sudo apt install gcc-riscv64-linux-gnu   # 安裝編譯目標為 riscv64 的工具鏈
 sudo apt install qemu-user               # 安裝可執行 linux 執行檔的 qemu
 ```
 
@@ -37,8 +37,8 @@ _start:
 
 ### 編譯、執行
 ```
-riscv64-unknown-elf-gcc -nostdlib 100.S    # 編譯後應得 a.out 檔案
-qemu-riscv64 a.out                         # qemu-riscv64 並非單單模擬裸機，還實作了部分系統呼叫
+riscv64-linux-gnu-gcc -nostdlib -static 100.S  # 編譯後應得 a.out 檔案
+qemu-riscv64 a.out                             # qemu-riscv64 並非單單模擬裸機，還實作了部分系統呼叫
 echo $?                                    # 可以看到上一個程序的結束碼是 100
 ```
 
@@ -93,7 +93,7 @@ _start:
     add t0, t0, t1    # t0 = t0 + t1
 
     li t1, 4          # t1 = 4
-    mul t0, t0, t1   # t0 = t0 * t1
+    mul t0, t0, t1    # t0 = t0 * t1
     addi t0, t0, 1    # t0 = t0 + 1
 
     li a7, 93         # RISCV Linux 中 exit 系統呼叫編號是 93
